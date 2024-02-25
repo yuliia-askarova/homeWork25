@@ -1,4 +1,5 @@
 const button = document.querySelector(".btn");
+console.log(button);
 button.addEventListener("click", async function () {
   const inputText = document.getElementById("textarea").value;
   const arr = inputText.split(" ");
